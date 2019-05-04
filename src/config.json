@@ -1,0 +1,13 @@
+{
+  "highlights":[
+    {
+        "pattern": "[ERROR]", "re":true, "bkg":"bgRed", "color": "black"
+    },
+    {
+        "pattern": "pok", "color": "green"
+    },
+    {
+        "pattern": "tok", "color": "black", "bkg":"bgBlue"
+    }
+  ]  
+}
