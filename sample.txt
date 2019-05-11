@@ -30,6 +30,8 @@ yoko
 poko
 [ERROR]: Apa
 [ERROR]: Apa
+ERROR: Should not be red
+E Should not be red
 poko
 toko
 poko

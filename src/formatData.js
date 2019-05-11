@@ -12,18 +12,19 @@ const formatData = (data, filterMode, patterns) => {
 
     for(i=0;i<patterns.length && !matchColor;i++) {
         const highlight = patterns[i];
-        if(highlight.re) {
+        if(highlight.re === true) {
             const re = new RegExp(highlight.pattern);
             match = data.match(re);
         } else {
             match = data.match(highlight.pattern);
         }
         if(match) {
+            // console.log(highlight.pattern, match);
             matchColor = highlight.color;
             matchBkg = highlight.bkg;
         }
     }
-    
+
     let fg = chalk.white;
     let format;
     if(matchColor) {
