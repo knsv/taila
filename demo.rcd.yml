@@ -1,0 +1,177 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: ~/source/priv/tailor
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 91
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 29
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 12
+
+  # The height of lines
+  lineHeight: 1
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 49
+    content: "Setting up generic variables \r\nSetting up generic aliases \U0001F468‍\U0001F3A4\r\n"
+  - delay: 38
+    content: "\e[?1034h$ "
+  - delay: 14
+    content: t
+  - delay: 56
+    content: a
+  - delay: 128
+    content: i
+  - delay: 58
+    content: l
+  - delay: 88
+    content: o
+  - delay: 98
+    content: r
+  - delay: 98
+    content: " "
+  - delay: 48
+    content: "-"
+  - delay: 37
+    content: "a"
+  - delay: 28
+    content: " "
+  - delay: 67
+    content: s
+  - delay: 76
+    content: a
+  - delay: 88
+    content: m
+  - delay: 99
+    content: l
+  - delay: 78
+    content: e
+  - delay: 68
+    content: .
+  - delay: 56
+    content: t
+  - delay: 78
+    content: x
+  - delay: 58
+    content: t
+  - delay: 221
+    content: "\r\n"
+  - delay: 112
+    content: "\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[30m\e[41m[ERROR]: Invalid checksum\e[49m\e[39m\r\n\e[30m\e[41m[ERROR]: Could not verify source of incoming message\e[49m\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[37m[TRACE]: Checksum ok\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[37m[TRACE]: Checksum ok\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[37m[TRACE]: Checksum ok\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[37m[TRACE]: Checksum ok\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[30m\e[41m[ERROR]: Invalid checksum\e[49m\e[39m\r\n\e[30m\e[41m[ERROR]: Could not verify source of incoming message\e[49m\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[30m\e[41m[ERROR]: Invalid checksum\e[49m\e[39m\r\n\e[30m\e[41m[ERROR]: Could not verify source of incoming message\e[49m\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[37m[TRACE]: Checksum ok\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[37m[TRACE]: Checksum ok\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[37m[TRACE]: Checksum ok\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[37m[TRACE]: Filter triggered\e[39m\r\n\e[37m[TRACE]: Message format ok\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[37m[TRACE]: In checksum validation\e[39m\r\n\e[30m\e[41m[ERROR]: Invalid checksum\e[49m\e[39m\r\n\e[30m\e[41m[ERROR]: Could not verify source of incoming message\e[49m\e[39m\r\n"
+  - delay: 4501
+    content: "\e[34mPress f to toggle filter out unmatched items\e[39m\r\n\e[34mPress i to for info\e[39m\r\n\e[34mPress b to insert a few new lines in the listing\e[39m\r\n\e[34mPress r to relod the file\e[39m\r\n"
+  - delay: 2915
+    content: "\e[34mFilter enabled\e[39m\r\n"
+  - delay: 1453
+    content: "\e[34mReloading the file\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[30m\e[41m[ERROR]: Invalid checksum\e[49m\e[39m\r\n\e[30m\e[41m[ERROR]: Could not verify source of incoming message\e[49m\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[30m\e[41m[ERROR]: Invalid checksum\e[49m\e[39m\r\n\e[30m\e[41m[ERROR]: Could not verify source of incoming message\e[49m\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[30m\e[41m[ERROR]: Invalid checksum\e[49m\e[39m\r\n\e[30m\e[41m[ERROR]: Could not verify source of incoming message\e[49m\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[30m\e[41m[ERROR]: Invalid checksum\e[49m\e[39m\r\n\e[30m\e[41m[ERROR]: Could not verify source of incoming message\e[49m\e[39m\r\n"
+  - delay: 2512
+    content: "\e[34m\e[39m\r\n\e[34m\e[39m\r\n\e[34m\e[39m\r\n\e[34m\e[39m\r\n\e[34m\e[39m\r\n\e[34m\e[39m\r\n\e[34m\e[39m\r\n\e[34m\e[39m\r\n\e[34m\e[39m\r\n\e[34m\e[39m\r\n\e[34m\e[39m\r\n"
+  - delay: 6640
+    content: "\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n"
+  - delay: 3061
+    content: "\e[34m[TRACE]: Checksum ok[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n\e[30m\e[41m[ERROR]: Invalid checksum\e[49m\e[39m\r\n\e[30m\e[41m[ERROR]: Could not verify source of incoming message\e[49m\e[39m\r\n"
+  - delay: 2593
+    content: "\e[34m[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n"
+  - delay: 888
+    content: "\e[34m[TRACE]: Checksum ok[INFO] : External message received\e[39m\r\n\e[32m[DEBUG]: Starting checksum validation\e[39m\r\n"
+  - delay: 120
+    content: "logout\r\n"

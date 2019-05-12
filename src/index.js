@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const chalk = require('chalk');
 const keypress = require('keypress');
 const program = require('commander');
@@ -42,7 +43,8 @@ process.stdin.on('keypress', function (ch, key) {
       break;
     case 'f':
     filterMode = !filterMode;
-      console.log(chalk.blue('Filter ' + (filterMode?'enabled':'disabled')));
+    startTailing(program.args[0], false, filterMode);
+    console.log(chalk.blue('Filter ' + (filterMode?'enabled':'disabled')));
     break;
     case 'b':
       console.log(chalk.blue('\n\n\n\n\n\n\n\n\n\n'));

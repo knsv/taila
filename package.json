@@ -2,7 +2,7 @@
   "name": "tailer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/tail.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,8 @@
     "readline-stream": "^1.0.2",
     "stream-readline": "^1.0.0",
     "tail": "^2.0.2"
+  },
+  "bin": {
+    "tailor": "src/server.js"
   }
 }

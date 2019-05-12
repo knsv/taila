@@ -5,6 +5,9 @@ This is a utility for tailing a text file similar to tail -f but with a few extr
 * Coloring lines that match substring of regular expression
 * Filtering out lines that does not match any of the configured patterns
 
+![Animated gif showing command](demo.gif)
+]
+
 ## Basic usage
 
 Usage: index [options] [filename]

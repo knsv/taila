@@ -15,6 +15,9 @@ const handleLineUnFiltered = data => handleLine(data, false);
 
 let tail;
 const startTailing = (filename, _fromBeginning, filterMode) => {
+  if(tail) {
+    tail.unwatch();
+  }
   tail = undefined;
   tail = new Tail(filename, { fromBeginning: _fromBeginning });
 
