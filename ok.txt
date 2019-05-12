@@ -1,0 +1,6 @@
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[TRACE]: Checksum ok

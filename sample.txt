@@ -1,51 +1,70 @@
-hello
-hello
-hello
-hello
-yoyoyo
-yoyoyo
-yoyoyo
-yoko
-yoko
-yoko
-yoko
-yoko
-yoko
-yoko
-yoko
-poko
-toko
-toko
-toko
-toko
-toko
-toko
-toko
-toko
-toko
-toko
-toko
-toko
-yoko
-poko
-[ERROR]: Apa
-[ERROR]: Apa
-ERROR: Should not be red
-E Should not be red
-poko
-toko
-poko
-apa
-apa
-apa
-poko
-[ERROR]: Apa
-apa
-[ERROR]: Apa
-apa
-toko
-apa
-apa
-apa
-toko
-[ERROR]: Apa
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[ERROR]: Invalid checksum
+[ERROR]: Could not verify source of incoming message
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[TRACE]: Checksum ok
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[TRACE]: Checksum ok
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[TRACE]: Checksum ok
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[TRACE]: Checksum ok
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[ERROR]: Invalid checksum
+[ERROR]: Could not verify source of incoming message
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[ERROR]: Invalid checksum
+[ERROR]: Could not verify source of incoming message
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[TRACE]: Checksum ok
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[TRACE]: Checksum ok
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[TRACE]: Checksum ok
+[INFO] : External message received
+[TRACE]: Filter triggered
+[TRACE]: Message format ok
+[DEBUG]: Starting checksum validation
+[TRACE]: In checksum validation
+[ERROR]: Invalid checksum
+[ERROR]: Could not verify source of incoming message

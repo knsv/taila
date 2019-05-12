@@ -1,9 +1,5 @@
 const chalk = require('chalk');
 
-// const getStyling (color, background) => {
-//     switch(color)
-// }
-
 const formatData = (data, filterMode, patterns) => {
     let i;
     let match;
@@ -16,7 +12,7 @@ const formatData = (data, filterMode, patterns) => {
             const re = new RegExp(highlight.pattern);
             match = data.match(re);
         } else {
-            match = data.match(highlight.pattern);
+            match = data.indexOf(highlight.pattern) >= 0;
         }
         if(match) {
             // console.log(highlight.pattern, match);
