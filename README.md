@@ -25,11 +25,11 @@ Options:
   -h, --help     output usage information
 
 ```
-   tailor server.log
-   tailor -a server.log
+   taila server.log
+   taila -a server.log
 ```
 
-During tailoring it is possible to affect the operation of the tail process by pressing some command keys on the keyboard.
+During tailing it is possible to affect the operation of the tail process by pressing some command keys on the keyboard.
 
 Commands during tailing:
 
