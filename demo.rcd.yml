@@ -124,9 +124,7 @@ records:
   - delay: 58
     content: l
   - delay: 88
-    content: o
-  - delay: 98
-    content: r
+    content: a
   - delay: 98
     content: " "
   - delay: 48
